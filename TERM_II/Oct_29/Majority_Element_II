@@ -1,0 +1,44 @@
+// Majority Element-II
+// LEETCODE link: https://leetcode.com/problems/majority-element-ii/description/
+// Return all the nums in arr with freq more than n/3 times
+
+package College_DSA.TERM_II.Oct_29;
+import java.util.*;
+public class Majority_Element_I {
+
+    public List<Integer> majorityElementII(int[] nums) {
+        int n = nums.length;
+        List<Integer> res = new ArrayList<>();
+
+        Integer n1 = null, n2 = null;
+        int c1 = 0, c2 = 0;
+
+        for (int e: nums) {
+            if (n1 != null && e == n1) c1++;
+            else if (n2 != null && e == n2) c2++;
+
+            else if (c1 == 0) {
+                c1 = 1;
+                n1 = e;
+            }
+            else if (c2 == 0) {
+                c2 = 1;
+                n2 = e;
+            }
+            else {
+                c1--;
+                c2--;
+            }
+        }
+
+        c1 = c2 = 0;
+        for (int e: nums) {
+            if (e == n1) c1++;
+            else if (e == n2) c2++;
+        }
+
+        if (c1 > n/3) res.add(n1);
+        if (c2 > n/3) res.add(n2);
+        return res;
+    }
+}
