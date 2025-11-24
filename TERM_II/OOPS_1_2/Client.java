@@ -8,14 +8,6 @@
 // any change made via s2 will reflect when accessed via s1
 
 package College_DSA.TERM_II.OOPS_1_2;
-class Student {
-    int age;
-    String name;
-
-    void display(){
-        System.out.println("My name is " + this.name + ". I am "  + this.age + " years old");
-    }
-}
 
 public class Client {
     public static void main(String[] args) {
@@ -23,13 +15,21 @@ public class Client {
         s1.age = 10;
         s1.name = "A";
         s1.display(); // My name is A. I am 10 years old
-
+        
         Student s2 = s1;
         s2.age = 20;
         s2.name = "B";
-
+        
         s2.display(); // My name is B. I am 20 years old
         s1.display(); // My name is B. I am 20 years old
+    }
+}
+class Student {
+    int age;
+    String name;
+
+    void display(){
+        System.out.println("My name is " + this.name + ". I am "  + this.age + " years old");
     }
 }
 
