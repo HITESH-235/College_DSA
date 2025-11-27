@@ -10,7 +10,7 @@
 // A car can only park in a parking space of its carType.
 // If there is no space available, return false, else park the car in that size space and return true.
 
-package College_DSA.TERM_II.OOPS_4;
+package College_DSA.TERM_II.OOPS.OOPS_4;
 public class Parking_System {
     private int big;
     private int medium;

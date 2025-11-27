@@ -1,4 +1,4 @@
-package College_DSA.TERM_II.OOPS_1_2;
+package College_DSA.TERM_II.OOPS.OOPS_1_2;
 public class ComplexNumber {
     float real, imaginary;
 

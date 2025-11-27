@@ -12,7 +12,7 @@
 // in the order $20, $50, $100, $200, and $500, update the number of banknotes in the ATM after withdrawing. 
 // Returns [-1] if it is not possible (do not withdraw any banknotes in this case).
 
-package College_DSA.TERM_II.OOPS_5;
+package College_DSA.TERM_II.OOPS.OOPS_5;
 import java.util.*;
 public class ATM {
     private Map<Integer,Integer> map;

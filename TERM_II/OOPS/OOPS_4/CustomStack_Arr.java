@@ -7,7 +7,7 @@
 // int pop() Pops and returns the top of the stack or -1 if the stack is empty.
 // void inc(int k, int val) Increments the bottom k elements of the stack by val. If there are less than k elements in the stack, increment all the elements in the stack.
 
-package College_DSA.TERM_II.OOPS_4;
+package College_DSA.TERM_II.OOPS.OOPS_4;
 public class CustomStack_Arr {
 
     private Integer[] st;

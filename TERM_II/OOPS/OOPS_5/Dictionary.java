@@ -5,7 +5,7 @@
 // void addWord(word) — Adds a word (containing lowercase English letters) to the structure.
 // bool search(word) — Returns true if there is any word in the structure that matches word; word may contain dots '.', where each dot can represent any single letter.
 
-package College_DSA.TERM_II.OOPS_5;
+package College_DSA.TERM_II.OOPS.OOPS_5;
 import java.util.*;
 public class Dictionary {
     

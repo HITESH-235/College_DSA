@@ -7,7 +7,7 @@
 // vars like s1 and s2 are just pointers(references) to the same object
 // any change made via s2 will reflect when accessed via s1
 
-package College_DSA.TERM_II.OOPS_1_2;
+package College_DSA.TERM_II.OOPS.OOPS_1_2;
 
 public class Client {
     public static void main(String[] args) {

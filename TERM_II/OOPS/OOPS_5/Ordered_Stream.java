@@ -18,7 +18,7 @@
 // Output:
 // [null,            [],           ["aaaaa"],    ["bbbbb","ccccc"], [],           ["ddddd", "eeeee"]]
 
-package College_DSA.TERM_II.OOPS_5;
+package College_DSA.TERM_II.OOPS.OOPS_5;
 import java.util.*;
 public class Ordered_Stream {
     String arr[];

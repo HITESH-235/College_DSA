@@ -8,7 +8,7 @@
 // 2 if Player 2 wins,
 // 0 otherwise.
 
-package College_DSA.TERM_II.OOPS_4;
+package College_DSA.TERM_II.OOPS.OOPS_4;
 public class Tic_Tac_Toe {
 
     private int n;

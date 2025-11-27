@@ -1,4 +1,4 @@
-package College_DSA.TERM_II.OOPS_3;
+package College_DSA.TERM_II.OOPS.OOPS_3;
 
 public class Static_Instance_Constructor {
     public static void main(String[] args) {

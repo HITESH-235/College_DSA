@@ -12,7 +12,7 @@
 // 4.string forward(int steps):
 // Move steps forward in history. Return the current url after forwarding in history at most steps.
 
-package College_DSA.TERM_II.OOPS_4;
+package College_DSA.TERM_II.OOPS.OOPS_4;
 public class Browser_History_LL {
     
     private Node head;

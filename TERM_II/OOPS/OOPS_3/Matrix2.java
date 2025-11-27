@@ -12,7 +12,7 @@
 // 4. print(): This method prints the entire matrix column by column. 
 // Each column is displayed on a new line, and values within each column are separated by a single space.
 
-package College_DSA.TERM_II.OOPS_3;
+package College_DSA.TERM_II.OOPS.OOPS_3;
 import java.util.*;
 public class Matrix2 {
 

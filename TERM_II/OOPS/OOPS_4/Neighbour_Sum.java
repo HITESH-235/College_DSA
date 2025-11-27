@@ -7,7 +7,7 @@
 // the main class does this with O(n2) TC as Brute Force (for adjacentSum & diagSum methods)
 // the other class does this in O(1) by using extra linear space
 
-package College_DSA.TERM_II.OOPS_4;
+package College_DSA.TERM_II.OOPS.OOPS_4;
 public class Neighbour_Sum {
     private int[][] grid;
     private int n;

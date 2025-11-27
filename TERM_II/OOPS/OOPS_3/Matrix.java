@@ -1,7 +1,5 @@
-package College_DSA.TERM_II.OOPS_3;
-
+package College_DSA.TERM_II.OOPS.OOPS_3;
 import java.util.Scanner;
-
 public class Matrix {
     int rows;
     int cols;
