@@ -22,6 +22,21 @@ public class First_Missing_Positive {
         }
         return n+1;
     }
+
+    public int firstMissingPositive_Vis(int arr[]) {
+        int n = arr.length;
+        boolean[] vis = new boolean[n];
+
+        for (int e: arr) {
+            if (e>=0 && e<n) {
+                vis[e] = true;
+            }
+        }
+        for (int i=0; i<n; i++) {
+            if (!vis[i]) return i;
+        }
+        return n;
+    }
     
     public int firstMissingPositive(int arr[]) {
         cyclicSort(arr, 1);
