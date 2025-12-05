@@ -4,7 +4,7 @@
 
 package College_DSA.TERM_II.Oct_29;
 import java.util.*;
-public class Majority_Element_I {
+public class Majority_Element_II {
 
     public List<Integer> majorityElementII(int[] nums) {
         int n = nums.length;
